@@ -195,10 +195,10 @@ atClient.pkam_authenticate(verbose=True)
 3. Send data like so:
 
 ```py
-# 'led' is the key name
+# 'distance' is the key name
 # `value` is the value you want to store into the server
 # this will write the value into the device's atServer as a key like "public:led@bob" with value `value`.
-data = atClient.put_public('led', str(value)) # `data` is the response from the server. You will usually get a number (which is the commitId).
+data = atClient.put_public('distance', str(value)) # `data` is the response from the server. You will usually get a number (which is the commitId).
 ```
 
 ## 6. Receiving data
