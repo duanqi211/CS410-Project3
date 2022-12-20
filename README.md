@@ -294,6 +294,7 @@ from lib.at_client.at_client import AtClient
 atClient = AtClient(atSign)
 del AtClient
 atClient.pkam_authenticate(verbose=True)
+	
 import machine
 from machine import Pin
 import time
