@@ -8,7 +8,7 @@ UMass 2022 IoT Projects.
 - [Prerequisites](#prerequisites)
 - [Instructions](#instructions)
   * [1. Getting the right Micropython Firmware for your Pico W](#1-getting-the-right-micropython-firmware-for-your-pico-w)
-  * [2. Getting Sarted - Blinking the LED](#2-getting-started--blinking-the-led)
+  * [2. Getting Sarted - Blinking the LED](#2-getting-started-blinking-the-led)
   * [3. Git Cloning](#3-git-cloning)
   * [4. Connecting to WiFi](#4-connecting-to-wifi)
   * [5. Authenticating into your atSign's server](#5-authenticating-into-your-atsigns-server)
