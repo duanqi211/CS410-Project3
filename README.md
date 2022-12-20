@@ -57,6 +57,7 @@ for i in range(10):
 4. Open the command pallette via Ctrl + Shift + P (or Cmd + Shift + P if you are on a Mac) and type Configure Project and press Enter. The extension should setup your current folder as a Pico W project by initializing a .vscode/ hidden folder and a .picowgo hidden file. Now, any Pico-W-Go commands should work. You can also access Pico-W-Go commands by clicking on "All Commands" at the bottom of VSCode.
 
 VSCode bottom toolbar with Pico-W-Go commands:
+
 ![68747470733a2f2f692e6962622e636f2f67336a6d3533632f696d6167652e706e67](https://user-images.githubusercontent.com/91394288/208582425-fc238c1b-34a0-423b-8226-f973964cf5f5.png)
 
 5. Now try connecting to your Pico W and see if it works. You can do this by clicking on the "Connect" button.
