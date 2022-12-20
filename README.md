@@ -37,6 +37,10 @@ You should see the Pico on your computer as a USB drive.
 
 ## 2. Getting Started
 
+1. Connect your Raspberry Pi Pico to the HC-SR04 ultrasonic sensor.
+![raspberry-pi-pico-ultrasonic-sensor-wiring](https://user-images.githubusercontent.com/91394288/208581510-cab343c6-0e33-4a5f-ac08-cdf3af3bb68e.png)
+
+
 
 ## 3. Git Cloning
 
