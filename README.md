@@ -298,7 +298,7 @@ import machine
 from machine import Pin
 import time
 key = 'distance'
-appAtSign = ''
+appAtSign = '' # add the atSign you are receiving the data from
 trigger_pin=4
 echo_pin=5
 trigger=Pin(trigger_pin, Pin.OUT)
