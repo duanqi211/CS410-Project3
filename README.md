@@ -230,8 +230,9 @@ data = atClient.get_public(key, appAtSign)
 ## 8. Connect Raspberry Pi Pico with Distance Sensor
 
 1. Connect your Raspberry Pi Pico to the HC-SR04 ultrasonic sensor.
-![raspberry-pi-pico-ultrasonic-sensor-wiring](https://user-images.githubusercontent.com/91394288/208581510-cab343c6-0e33-4a5f-ac08-cdf3af3bb68e.png)
-	
+
+![raspberry-pi-pico-ultrasonic-sensor-wiring](https://user-images.githubusercontent.com/91394288/208586864-0d562394-cd4a-481a-b057-2aeb9e8cd86f.png)
+
 2. Create a file named blink.py and write the following code:
 ```
 # read settings.json
