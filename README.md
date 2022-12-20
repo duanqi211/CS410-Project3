@@ -202,28 +202,7 @@ and that you have the .atKeys file in the `/keys/` directory.
 - Uploaded your .atKeys to the Pico W (via the FTP server)
 - Have passed tests 1, 2, 3, and 4 (wifi, find secondary address, initializing keys, and pkam authenticating).
 
-2. Copy the following code to 1. read the settings.json, 2. connect to the WiFi, and 3. authneticate into your atSign's server.
-
-```py
-# read settings.json
-from lib.at_client.io_util import read_settings
-ssid, password, atSign = read_settings()
-del read_settings
-
-# connect to wifi
-print('Connecting to WiFi %s...' % ssid)
-from lib.wifi import init_wlan
-init_wlan(ssid, password)
-del ssid, password, init_wlan
-
-# authenticate into server
-from lib.at_client.at_client import AtClient
-atClient = AtClient(atSign, writeKeys=True)
-del AtClient
-atClient.pkam_authenticate(verbose=True)
-```
-
-3. Send data like so:
+2. Send data like so:
 
 ```py
 # 'distance' is the key name
@@ -240,28 +219,7 @@ data = atClient.put_public('distance', str(value)) # `data` is the response from
 - Have passed tests 1, 2, 3, and 4 (wifi, find secondary address, initializing keys, and pkam authenticating).
 - Your other atSign has an existent public key on its atServer for it to be received by the Pico.
 
-2. Copy the boiler plate code (same as Step 6)
-
-```py
-# read settings.json
-from lib.at_client.io_util import read_settings
-ssid, password, atSign = read_settings()
-del read_settings
-
-# connect to wifi
-print('Connecting to WiFi %s...' % ssid)
-from lib.wifi import init_wlan
-init_wlan(ssid, password)
-del ssid, password, init_wlan
-
-# authenticate into server
-from lib.at_client.at_client import AtClient
-atClient = AtClient(atSign)
-del AtClient
-atClient.pkam_authenticate(verbose=True)
-```
-
-3. Receive data from another atSign's server like so:
+2. Receive data from another atSign's server like so:
 
 ```py
 key = 'instructions' # the key that exists in the other atSign's server
