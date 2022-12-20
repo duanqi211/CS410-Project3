@@ -1,6 +1,6 @@
 # at_pico_w
 
-For UMass 2022 IoT Projects.
+UMass 2022 IoT Projects.
 
 # Table of Contents
 
