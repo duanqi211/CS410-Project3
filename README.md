@@ -19,7 +19,6 @@ UMass 2022 IoT Projects.
 # Prerequisites
 
 - [VSCode](https://code.visualstudio.com/Download) with the [Pico-W-Go extension](https://marketplace.visualstudio.com/items?itemName=paulober.pico-w-go)
-- [Git](https://git-scm.com/) and your own [GitHub](https://github.com) account
 - A [Raspberry Pi Pico W](https://www.canakit.com/raspberry-pi-pico-w.html) and [a data micro-USB to USB-A cable](https://m.media-amazon.com/images/I/61kT7kpt2hL._AC_SY450_.jpg) (to connect your Pico to your Computer)
 - [FileZilla](https://filezilla-project.org/) or any other FTP software.
 - One [atSign](https://my.atsign.com/go) and its [.atKeys file](https://www.youtube.com/watch?v=2Uy-sLQdQcA&ab_channel=Atsign)
