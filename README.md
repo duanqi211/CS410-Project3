@@ -283,9 +283,11 @@ if shouldRun != 'y':
     sys.exit(1)
 del sys
 
+# connect to wifi
 from lib.at_client.io_util import read_settings
 ssid, password, atSign = read_settings()
 del read_settings
+
 
 print('Connecting to WiFi %s...' % ssid)
 from lib.wifi import init_wlan
