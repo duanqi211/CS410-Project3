@@ -14,6 +14,7 @@ UMass 2022 IoT Projects.
   * [5. Authenticating into your atSign's server](#5-authenticating-into-your-atsigns-server)
   * [6. Sending data](#6-sending-data)
   * [7. Receiving data](#7-receiving-data)
+  * [8. Connect Raspberry Pi Pico with Distance Sensor](#8-connect-raspberry-pi-pico-with-distance-sensor)
 
 # Prerequisites
 
