@@ -8,11 +8,12 @@ UMass 2022 IoT Projects.
 - [Prerequisites](#prerequisites)
 - [Instructions](#instructions)
   * [1. Getting the right Micropython Firmware for your Pico W](#1-getting-the-right-micropython-firmware-for-your-pico-w)
-  * [2. Git Cloning](#3-git-cloning)
-  * [3. Connecting to WiFi](#4-connecting-to-wifi)
-  * [4. Authenticating into your atSign's server](#5-authenticating-into-your-atsigns-server)
-  * [5. Sending data](#6-sending-data)
-  * [6. Receiving data](#7-receiving-data)
+  * [2. Getting Sarted]
+  * [3. Git Cloning](#3-git-cloning)
+  * [4. Connecting to WiFi](#4-connecting-to-wifi)
+  * [5. Authenticating into your atSign's server](#5-authenticating-into-your-atsigns-server)
+  * [6. Sending data](#6-sending-data)
+  * [7. Receiving data](#7-receiving-data)
 
 # Prerequisites
 
@@ -34,7 +35,10 @@ You should see the Pico on your computer as a USB drive.
 
 3. Drag and drop the `firmware.uf2` file into the Pico W. This will flash the Pico W with the new firmware. Now the Pico W should automatically restart so no need to unplug/replug it.
 
-## 2. Git Cloning
+## 2. Getting Started
+
+
+## 3. Git Cloning
 
 Now we know your Pico W is working swell, let's get into some atPlatform.
 
@@ -51,7 +55,7 @@ Now you should have all of the code in your folder. This is the fork you created
 
 5. Configure the project via Ctrl + Shift + P (or Cmd + Shift + P) and type `Configure Project` and press Enter just like before to setup the Pico project. Then run the `Upload Project` command.
 
-## 3. Connecting to WiFi
+## 4. Connecting to WiFi
 
 1. Edit the `settings.json` by adding your WiFi and Password, leave the atSign blank for now.
 
@@ -97,7 +101,7 @@ Connecting to Soup (Ctrl+C to stop)...
 Connected to WiFi Soup: True
 ```
 
-## 4. Authenticating into your atSign's server
+## 5. Authenticating into your atSign's server
 
 1. If you do not have all of the prerequisites, it is time to get them, especially: [FileZilla](https://filezilla-project.org/) or any other FTP software and one [atSign](https://my.atsign.com/go) and its [.atKeys file](https://www.youtube.com/watch?v=2Uy-sLQdQcA&ab_channel=Atsign). Continue reading to find out how to get your .atKeys files.
 
@@ -164,7 +168,7 @@ and that you have the .atKeys file in the `/keys/` directory.
 
 <image src="https://i.imgur.com/wl2rIk8.png" />
 
-## 5. Sending data
+## 6. Sending data
 
 1. Before moving on, make sure you've:
 
@@ -201,7 +205,7 @@ atClient.pkam_authenticate(verbose=True)
 data = atClient.put_public('distance', str(value)) # `data` is the response from the server. You will usually get a number (which is the commitId).
 ```
 
-## 6. Receiving data
+## 7. Receiving data
 
 1. Just like in step 6, make sure you have done the following:
 
