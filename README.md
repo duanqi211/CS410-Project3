@@ -43,8 +43,8 @@ You should see the Pico on your computer as a USB drive.
 
 3. Create a file named blink.py and write the following code:
 
-# blink.py
-```
+```# blink.py
+
 import machine
 import time
 
