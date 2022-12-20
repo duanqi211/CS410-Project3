@@ -37,9 +37,25 @@ You should see the Pico on your computer as a USB drive.
 
 ## 2. Getting Started
 
-1. Connect your Raspberry Pi Pico to the HC-SR04 ultrasonic sensor.
-![raspberry-pi-pico-ultrasonic-sensor-wiring](https://user-images.githubusercontent.com/91394288/208581510-cab343c6-0e33-4a5f-ac08-cdf3af3bb68e.png)
+1. Open VSCode and create and open an empty folder where your project will be.
 
+2. Get the Pico-W-Go extension
+
+3. Create a file named blink.py and write the following code:
+```
+# blink.py
+
+import machine
+import time
+
+led = machine.Pin("LED", machine.Pin.OUT) # "LED" is the on board LED
+
+# blink ten times
+for i in range(10):
+    print('Blinking... %s' %str(i+1))
+    led.toggle()
+    time.sleep(0.5)
+ ```
 
 
 ## 3. Git Cloning
@@ -245,3 +261,8 @@ key = 'instructions' # the key that exists in the other atSign's server
 appAtSign = '@smoothalligator' # the atSign you are receiving the data from
 data = atClient.get_public(key, appAtSign)
 ```
+
+## 8. Raspberry Pi Pico Distance Sensor
+
+1. Connect your Raspberry Pi Pico to the HC-SR04 ultrasonic sensor.
+![raspberry-pi-pico-ultrasonic-sensor-wiring](https://user-images.githubusercontent.com/91394288/208581510-cab343c6-0e33-4a5f-ac08-cdf3af3bb68e.png)
