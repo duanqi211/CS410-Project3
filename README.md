@@ -1,6 +1,3 @@
-<img width=250px src="https://atsign.dev/assets/img/atPlatform_logo_gray.svg?sanitize=true">
-
-
 # at_pico_w
 
 For UMass 2022 IoT Projects.
