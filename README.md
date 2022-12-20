@@ -32,8 +32,6 @@ UMass 2022 IoT Projects.
 
 You should see the Pico on your computer as a USB drive.
 
-<img src="https://i.imgur.com/msoBukM.png" />
-
 3. Drag and drop the `firmware.uf2` file into the Pico W. This will flash the Pico W with the new firmware. Now the Pico W should automatically restart so no need to unplug/replug it.
 
 ## 2. Git Cloning
