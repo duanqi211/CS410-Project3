@@ -276,6 +276,7 @@ data = atClient.get_public(key, appAtSign)
 	
 2. Create a file named blink.py and write the following code:
 ```
+# read settings.json
 import sys
 shouldRun = str(input('Run? (y/n): ')).lower()
 if shouldRun != 'y':
