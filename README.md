@@ -327,3 +327,8 @@ while True:
         print("Obstace distance= {}cm".format(distance))
     time.sleep(1)
 ```
+3. Now try connecting to your Pico W and see if it works. You can do this by clicking on the "Connect" button.
+		      
+4. Run the "Run current file" command.
+		      
+5. As you put an object infront of the ultrasonic sensor it should display the distance between the sensor and the object, you should see the value changes as you moving the object closer or farer from the sensor.
