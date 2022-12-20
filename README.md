@@ -43,7 +43,7 @@ You should see the Pico on your computer as a USB drive.
 2. Get the Pico-W-Go extension
 
 3. Create a file named blink.py and write the following code:
-```
+```py
 import machine
 import time
 
@@ -233,7 +233,7 @@ data = atClient.get_public(key, appAtSign)
 ![raspberry-pi-pico-ultrasonic-sensor-wiring](https://user-images.githubusercontent.com/91394288/208587197-b873e498-14e1-4cd6-a6dd-e496f2a08c8a.jpeg)
 
 2. Create a file named blink.py and write the following code:
-```
+```py
 # read settings.json
 import sys
 shouldRun = str(input('Run? (y/n): ')).lower()
