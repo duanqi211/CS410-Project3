@@ -7,7 +7,6 @@ UMass 2022 IoT Projects.
 - [Table of Contents](#table-of-contents)
 - [Prerequisites](#prerequisites)
 - [Instructions](#instructions)
-  * [0. Introduction](#0-introduction)
   * [1. Getting the right Micropython Firmware for your Pico W](#1-getting-the-right-micropython-firmware-for-your-pico-w)
   * [2. Getting Started - Blinking the LED](#2-getting-started---blinking-the-led)
   * [3. Git Cloning](#3-git-cloning)
@@ -25,14 +24,6 @@ UMass 2022 IoT Projects.
 - One [atSign](https://my.atsign.com/go) and its [.atKeys file](https://www.youtube.com/watch?v=2Uy-sLQdQcA&ab_channel=Atsign)
 
 # Instructions
-
-## 0. Introduction
-
-Hi UMass students! I've wrote some code for you to get your Pico Ws setup with the atPlatform. Big shoutout to @realvarx on GitHub for developing AES CTR and RSA-2048 private key signing on the Pico W. 
-
-Let me know if you have any questions on Discord (Jeremy#7970) or by email (jeremy.tubongbanua@atsign.com) or just on our [discord](https://discord.atsign.com).
-
-Be sure to get the first 3 prerequisites under [Prerequisites](#prerequisites) before you start. The last 2 prerequisites (FTP software and 2 atSigns) can be done later.
 
 ## 1. Getting the right Micropython Firmware for your Pico W
 
