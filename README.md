@@ -35,7 +35,7 @@ You should see the Pico on your computer as a USB drive.
 
 3. Drag and drop the `firmware.uf2` file into the Pico W. This will flash the Pico W with the new firmware. Now the Pico W should automatically restart so no need to unplug/replug it.
 
-## 2. Getting Started
+## 2. Getting Started - Blinking the LED
 
 1. Open VSCode and create and open an empty folder where your project will be.
 
