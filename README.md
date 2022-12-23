@@ -293,4 +293,4 @@ while True:
 		      
 4. Run the "Run current file" command.
 		      
-5. As you put an object infront of the ultrasonic sensor it should display the distance between the sensor and the object, you should see the value changes as you moving the object closer or farer from the sensor.
+5. As you put an object infront of the ultrasonic sensor it should display the distance between the sensor and the object, you should see the value changes as you moving the object closer or further from the sensor.
